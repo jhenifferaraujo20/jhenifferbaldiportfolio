@@ -1,6 +1,8 @@
+import Hero from "../components/Hero";
+
 const Index = () => {
     return (
-        <h1>Hello</h1>
+        <Hero />
     );
 }
 
