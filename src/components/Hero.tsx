@@ -16,17 +16,20 @@ const Hero = () => {
 
             <div className="max-w-4xl mx-auto text-center z-10">
                 <h2 className="text-2xl font-medium text-gray-500 fade-in-left">Hello, I'm</h2>
-                <h1 className="text-5xl md:text-7xl font-bold mt-2 mb-6">
+                <h1 className="text-5xl md:text-7xl font-bold mt-2 mb-6 animate-fade-in">
                     <span className="gradient-text">Jheniffer Baldi</span>
                 </h1>
-                <h3 className="text-3xl md:text-4xl font-light text-gray-800 mb-8">Full Stack Developer</h3>
-                <p className="text-lg md:text-xl text-gray-500 max-w-2xl mx-auto mb-12">
+                <h3 className="text-3xl md:text-4xl font-light text-gray-800 mb-8 animate-fade-in-right">Full Stack Developer</h3>
+                <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto mb-12 animate-fade-in opacity-0" style={{ animationDelay: "300ms", animationFillMode: "forwards" }}>
                     I create beautiful, functional websites and digital experiences that help businesses grow and engage their audience.
                 </p>
-                <div className="flex justify-center space-x-4">
-                    <a href="#about" className="px-6 py-3 bg-gradient-to-r from-purple-600 to-blue-500 hover:from-purple-700 hover:to-blue-600 text-white font-medium rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl hover:translate-y-2px hover:translate-y-[-2px]">
+                <div className="flex justify-center space-x-4 animate-fade-in opacity-0" style={{ animationDelay: "600ms", animationFillMode: "forwards"}}>
+                    <button 
+                        onClick={scrollToNextSection}
+                        className="px-6 py-3 bg-gradient-to-r from-purple-600 to-blue-500 hover:from-purple-700 hover:to-blue-600 text-white font-medium rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl hover:translate-y-2px hover:translate-y-[-2px]"
+                    >
                         View My Work
-                    </a>
+                    </button>
                     <a href="#contact" className="px-6 py-3 bg-white text-gray-900 font-medium rounded-lg border border-gray-200 hover:border-gray-300 transition-all duration-300 shadow-md hover:shadow-lg hover:translate-y-[-2px]">
                         Contact Me
                     </a>
