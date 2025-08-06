@@ -1,8 +1,12 @@
-import Hero from "../components/Hero";
+import Navbar from "@/components/Navbar";
+import Hero from "@/components/Hero";
 
 const Index = () => {
     return (
-        <Hero />
+        <main>
+            <Navbar />
+            <Hero />
+        </main>
     );
 }
 
