@@ -1,69 +1,47 @@
-# React + TypeScript + Vite
+# 💻 My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## 📝 Sobre este projeto
+Este é o meu portfólio pessoal, criado para apresentar meus **projetos, habilidades e experiências** como desenvolvedora full-stack.  
+O projeto foi feito com **React, TypeScript e Tailwind CSS**, com foco em **UI/UX moderno e responsivo**.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## 🚀 Tecnologias utilizadas
+- **Frontend:** React, TypeScript, Tailwind CSS, Shadcn/UI  
+- **Design:** Figma, UI/UX, design responsivo  
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🌟 Funcionalidades
+- Seções de **About, Skills, Projects, Contact**  
+- Cards interativos com **barras de progresso** para habilidades  
+- **Menu mobile responsivo**  
+- **Animações suaves** ao entrar na tela (fade, slide)  
+- Possível **toggle de idioma** (em inglês e português)  
+
+
+
+
+## 🔗 Acessar o site
+[Visite meu portfólio](https://jhenifferbaldiportfolio.vercel.app/)
+
+
+
+## 🤝 Contato
+- **LinkedIn:** [Jheniffer Araujo Baldi](https://www.linkedin.com/in/jheniffer-araujo-baldi/)
+- **Email:** jhenifferbaldi@gmail.com
+- **GitHub:** [jhenifferaraujo20](https://github.com/jhenifferaraujo20)
+
+
+
+## 🏗️ Próximos passos
+- Adicionar **toggle de idioma** (EN/PT)  
+- Criar **seção de projetos detalhados** com links para cada projeto  
+- Implementar **dark mode** e mais interações visuais
