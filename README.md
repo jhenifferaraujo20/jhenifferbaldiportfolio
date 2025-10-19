@@ -4,20 +4,19 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
-
+<br/>
 
 ## 📝 Sobre este projeto
 Este é o meu portfólio pessoal, criado para apresentar meus **projetos, habilidades e experiências** como desenvolvedora full-stack.  
 O projeto foi feito com **React, TypeScript e Tailwind CSS**, com foco em **UI/UX moderno e responsivo**.
 
-
+<br/>
 
 ## 🚀 Tecnologias utilizadas
 - **Frontend:** React, TypeScript, Tailwind CSS, Shadcn/UI  
 - **Design:** Figma, UI/UX, design responsivo  
 
-
-
+<br/>
 
 ## 🌟 Funcionalidades
 - Seções de **About, Skills, Projects, Contact**  
@@ -26,20 +25,19 @@ O projeto foi feito com **React, TypeScript e Tailwind CSS**, com foco em **UI/U
 - **Animações suaves** ao entrar na tela (fade, slide)  
 - Possível **toggle de idioma** (em inglês e português)  
 
-
-
+<br/>
 
 ## 🔗 Acessar o site
 [Visite meu portfólio](https://jhenifferbaldiportfolio.vercel.app/)
 
-
+<br/>
 
 ## 🤝 Contato
 - **LinkedIn:** [Jheniffer Araujo Baldi](https://www.linkedin.com/in/jheniffer-araujo-baldi/)
 - **Email:** jhenifferbaldi@gmail.com
 - **GitHub:** [jhenifferaraujo20](https://github.com/jhenifferaraujo20)
 
-
+<br/>
 
 ## 🏗️ Próximos passos
 - Adicionar **toggle de idioma** (EN/PT)  
