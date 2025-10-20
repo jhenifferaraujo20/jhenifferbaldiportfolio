@@ -4,17 +4,21 @@ import About from "@/components/About";
 import Skills from "@/components/Skills";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import ScrollToTop from "@/components/ScrollToTop";
 
 const Index = () => {
     return (
-        <main>
+        <div className="min-h-screen bg-white">
             <Navbar />
-            <Hero />
-            <About />
-            <Skills />
-            <Contact />
+            <main>
+                <Hero />
+                <About />
+                <Skills />
+                <Contact />
+            </main>
             <Footer />
-        </main>
+            <ScrollToTop />
+        </div>
     );
 }
 
